@@ -5,7 +5,7 @@ Dev. by : Rad-Wane
 
 ## Intro:
 
-This visual program uses sevral algorthims to sort bars with random heights. You can choose to sort using one of the 4 algorithms, and you'll get a visual on how those algorithms work. You can also regenerate the random bars and sort them again and again.   
+This visual program uses sevral algorthims to sort bars with random heights. You can choose to sort using one of the 4 algorithms, and you'll get a visual (with `pygame`) on how those algorithms work. You can also regenerate the random bars and sort them again and again.   
 
 ## Screen shots:
 
@@ -19,6 +19,7 @@ You can choose on of the folowing :
 * Insertion Sort
 * Shell Sort
 * Selection Sort
+Source : [here](https://www.tutorialspoint.com/python_data_structure/python_sorting_algorithms.htm)
 
 ### Bubble Sort
 
@@ -101,7 +102,7 @@ When the above code is executed, it produces the following result −
 [2, 11, 19, 27, 30, 31, 45, 121]
 ```
 
-###Selection Sort
+### Selection Sort
 
 In selection sort we start by finding the minimum value in a given list and move it to a sorted list. Then we repeat the process for each of the remaining elements in the unsorted list. The next element entering the sorted list is compared with the existing elements and placed at its correct position. So at the end all the elements from the unsorted list are sorted.
 ```python
